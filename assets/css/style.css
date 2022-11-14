@@ -21,16 +21,16 @@ header nav{
 }
 header nav ul li{
     margin-left: 3vw;
-    color:whitesmoke;
     font-size: 1.2rem; 
    
 }
-header nav ul li a:link{
+ a{
 text-decoration: none;
+color:whitesmoke;
 }
 
 #aboutMe{
-    margin-top: 5vh;
+    margin-top: 10vh;
     text-align: center;
 }
 
@@ -51,7 +51,8 @@ text-decoration: none;
     overflow: hidden;
 }
 #projects{
-    margin-top: 3vh;
+    background-color: beige;
+    margin-top: 20vh;
     text-align: center;
 }
 .mainApp{
