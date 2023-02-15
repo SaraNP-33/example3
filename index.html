@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---Bulma CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <!--Connect to css stylesheet-->
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Example 3</title>
@@ -51,9 +53,20 @@
 
     <!---Contact Section-->
    <section id="contact">
-    <input type="text">
-    <textarea name="" id="" cols="30" rows="10"></textarea>
-    <button>Submit</button>
+    <h2>Contact me</h2>
+    <p>Send me a message and I'll get back to you</p>
+    <div class="field">
+        <label class="label">Name</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Text input">
+          <textarea class="textarea" placeholder="e.g. Hello world"></textarea>
+        </div>
+      </div>
+   
+    <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-link">Submit</button>
+        </div>
    </section>
 
 </body>
